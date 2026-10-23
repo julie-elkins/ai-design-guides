@@ -36,10 +36,12 @@ diagnostics, identity, credentials, stdio behavior, and real-client testing.
 Use this short path:
 
 1. Read the [Agent Systems Design Guide](https://github.com/julie-elkins/agent-systems-design-guide)
-   to see the design reasoning.
-2. Open the [Agent Assurance Harness showcase](https://github.com/julie-elkins/agent-assurance-harness/blob/main/SHOWCASE.md)
+   to see the reusable design reasoning.
+2. Read the [Research Design Guide for AI Systems](https://github.com/julie-elkins/agent-systems-design-guide/blob/main/RESEARCH_DESIGN_GUIDE.md)
+   to see how a research question becomes a protocol, artifact, result, and bounded claim.
+3. Open the [Agent Assurance Harness showcase](https://github.com/julie-elkins/agent-assurance-harness/blob/main/SHOWCASE.md)
    to see runnable synthetic evidence.
-3. Read the [Production AI Agent Readiness Checklist](https://github.com/julie-elkins/agent-assurance-harness/blob/main/docs/PRODUCTION_AI_AGENT_READINESS_CHECKLIST.md)
+4. Read the [Production AI Agent Readiness Checklist](https://github.com/julie-elkins/agent-assurance-harness/blob/main/docs/PRODUCTION_AI_AGENT_READINESS_CHECKLIST.md)
    to see how the controls are reviewed without claiming production approval.
 
 ## Guide map
@@ -49,6 +51,9 @@ Use this short path:
 - [Agent Systems Design Guide](https://github.com/julie-elkins/agent-systems-design-guide)
   -- reusable patterns for agents, evaluations, technical-content systems, MCP
   servers, and developer tools.
+- [Research Design Guide for AI Systems](https://github.com/julie-elkins/agent-systems-design-guide/blob/main/RESEARCH_DESIGN_GUIDE.md)
+  -- how to define a bounded research question, lock a protocol, build a reproducible
+  artifact, report uncertainty, and keep claims within the evidence.
 
 ### MCP design
 
@@ -90,6 +95,7 @@ where the synthetic controls and runnable labs live:
 AI Design Guides
     ├── design patterns
     │     ├── Agent Systems Design Guide
+    │     │     └── Research Design Guide
     │     └── MCP Server Design Guide
     ├── operational guides and runnable evidence
     │     └── Agent Assurance Harness
