@@ -23,7 +23,8 @@ when you are ready for the first guided build path.
 
 Start with the [Agent Systems Design Guide](https://github.com/julie-elkins/agent-systems-design-guide).
 It explains the reusable decisions behind evidence contracts, refusal, metadata-only
-boundaries, independent evaluation, human approval, and semantic task outcomes.
+boundaries, independent evaluation, human approval, semantic task outcomes, and
+multi-turn agent evaluation.
 
 ### MCP builder
 
@@ -37,11 +38,17 @@ Use this short path:
 
 1. Read the [Agent Systems Design Guide](https://github.com/julie-elkins/agent-systems-design-guide)
    to see the reusable design reasoning.
-2. Read the [Research Design Guide for AI Systems](https://github.com/julie-elkins/agent-systems-design-guide/blob/main/RESEARCH_DESIGN_GUIDE.md)
+2. Read [Agent Evaluation and Release](https://github.com/julie-elkins/agent-systems-design-guide/blob/main/AGENT_EVALUATION_AND_RELEASE.md)
+   to see how requirements become component, trajectory, semantic, behavioral, and
+   end-to-end evidence.
+3. Read the [Research Design Guide for AI Systems](https://github.com/julie-elkins/agent-systems-design-guide/blob/main/RESEARCH_DESIGN_GUIDE.md)
    to see how a research question becomes a protocol, artifact, result, and bounded claim.
-3. Open the [Agent Assurance Harness showcase](https://github.com/julie-elkins/agent-assurance-harness/blob/main/SHOWCASE.md)
+4. Open the [Agent Assurance Harness showcase](https://github.com/julie-elkins/agent-assurance-harness/blob/main/SHOWCASE.md)
    to see runnable synthetic evidence.
-4. Read the [Production AI Agent Readiness Checklist](https://github.com/julie-elkins/agent-assurance-harness/blob/main/docs/PRODUCTION_AI_AGENT_READINESS_CHECKLIST.md)
+5. Use the [Agent Evaluation Checklist](https://github.com/julie-elkins/agent-assurance-harness/blob/main/AGENT_EVALUATION_CHECKLIST.md)
+   to review the evaluation contract, evidence, grader validity, repeated runs, and
+   release decision.
+6. Read the [Production AI Agent Readiness Checklist](https://github.com/julie-elkins/agent-assurance-harness/blob/main/docs/PRODUCTION_AI_AGENT_READINESS_CHECKLIST.md)
    to see how the controls are reviewed without claiming production approval.
 
 ## Guide map
@@ -54,6 +61,10 @@ Use this short path:
 - [Research Design Guide for AI Systems](https://github.com/julie-elkins/agent-systems-design-guide/blob/main/RESEARCH_DESIGN_GUIDE.md)
   -- how to define a bounded research question, lock a protocol, build a reproducible
   artifact, report uncertainty, and keep claims within the evidence.
+- [Agent Evaluation and Release](https://github.com/julie-elkins/agent-systems-design-guide/blob/main/AGENT_EVALUATION_AND_RELEASE.md)
+  -- how to move from requirements through test cases, traces, deterministic and
+  semantic checks, multi-turn and trajectory evaluation, grader validation, and a
+  bounded release decision.
 
 ### MCP design
 
@@ -88,6 +99,9 @@ where the synthetic controls and runnable labs live:
   reporting honestly.
 - [LLM Eval Validity](https://github.com/julie-elkins/llm-eval-validity)
   -- test whether an evaluation supports the decision being made from it.
+- [Agent Evaluation Checklist](https://github.com/julie-elkins/agent-assurance-harness/blob/main/AGENT_EVALUATION_CHECKLIST.md)
+  -- an operational review surface requiring an owner, evidence artifact, decision
+  rule, and missing-evidence action for each evaluation control.
 
 ## How the repositories fit together
 
@@ -95,10 +109,12 @@ where the synthetic controls and runnable labs live:
 AI Design Guides
     ├── design patterns
     │     ├── Agent Systems Design Guide
+    │     │     ├── Agent Evaluation and Release
     │     │     └── Research Design Guide
     │     └── MCP Server Design Guide
     ├── operational guides and runnable evidence
-    │     └── Agent Assurance Harness
+    │     ├── Agent Assurance Harness
+    │     └── Agent Evaluation Checklist
     └── recommended learning sequence
           └── Agent Evaluation Learning Path
 ```
