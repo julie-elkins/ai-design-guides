@@ -83,6 +83,9 @@ where the synthetic controls and runnable labs live:
 - [AI Incident Response](https://github.com/julie-elkins/agent-assurance-harness/blob/main/docs/AI_INCIDENT_RESPONSE.md)
   -- adapt incident response to model, context, tool, authorization, and recovery
   boundaries.
+- [AI Evaluation Incident Response](https://github.com/julie-elkins/agent-assurance-harness/blob/main/docs/AI_EVALUATION_INCIDENT_RESPONSE.md)
+  -- respond when the evaluation, evaluator, evidence path, or release gate can no
+  longer support its declared decision.
 - [AI Incident Response Tabletop Lab](https://github.com/julie-elkins/agent-assurance-harness/blob/main/examples/ai-incident-response-lab/README.md)
   -- discuss containment, evidence, authority, and recovery using synthetic scenarios.
 - [Advanced Production Operations](https://github.com/julie-elkins/agent-assurance-harness/blob/main/docs/ADVANCED_PRODUCTION_OPERATIONS.md)
@@ -114,6 +117,8 @@ AI Design Guides
     │     └── MCP Server Design Guide
     ├── operational guides and runnable evidence
     │     ├── Agent Assurance Harness
+    │     │     ├── AI Incident Response
+    │     │     └── AI Evaluation Incident Response
     │     └── Agent Evaluation Checklist
     └── recommended learning sequence
           └── Agent Evaluation Learning Path
