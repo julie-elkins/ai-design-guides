@@ -63,8 +63,9 @@ Use this short path:
   artifact, report uncertainty, and keep claims within the evidence.
 - [Agent Evaluation and Release](https://github.com/julie-elkins/agent-systems-design-guide/blob/main/AGENT_EVALUATION_AND_RELEASE.md)
   -- how to move from requirements through test cases, traces, deterministic and
-  semantic checks, multi-turn and trajectory evaluation, grader validation, and a
-  bounded release decision.
+  semantic checks, root-cause diagnosis, replay and full validation, multi-turn and
+  trajectory evaluation, flat-versus-multi-agent comparison, grader validation, and
+  a bounded release decision.
 
 ### MCP design
 
