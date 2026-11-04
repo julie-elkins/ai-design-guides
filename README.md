@@ -65,7 +65,7 @@ Use this short path:
   -- how to move from requirements through test cases, traces, deterministic and
   semantic checks, root-cause diagnosis, replay and full validation, multi-turn and
   trajectory evaluation, flat-versus-multi-agent comparison, grader validation, and
-  a bounded release decision.
+  evaluation-driven optimization, and a bounded release decision.
 
 ### MCP design
 
