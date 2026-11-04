@@ -100,7 +100,8 @@ where the synthetic controls and runnable labs live:
 
 - [Agent Assurance Harness](https://github.com/julie-elkins/agent-assurance-harness)
   -- offline, provider-neutral synthetic controls for acting, abstaining, and
-  reporting honestly.
+  reporting honestly, including a constrained quality/cost/latency candidate
+  comparison that leaves final selection to human review.
 - [LLM Eval Validity](https://github.com/julie-elkins/llm-eval-validity)
   -- test whether an evaluation supports the decision being made from it.
 - [Agent Evaluation Checklist](https://github.com/julie-elkins/agent-assurance-harness/blob/main/AGENT_EVALUATION_CHECKLIST.md)
@@ -126,7 +127,8 @@ AI Design Guides
 ```
 
 The design guides explain the decisions. The harness demonstrates bounded synthetic
-evidence. The learning path tells a new learner what to read and run next.
+evidence, including the constrained candidate comparison. The learning path tells
+a new learner what to read and run next.
 
 ## Scope and limits
 
