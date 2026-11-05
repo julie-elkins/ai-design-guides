@@ -66,6 +66,10 @@ Use this short path:
   semantic checks, root-cause diagnosis, replay and full validation, multi-turn and
   trajectory evaluation, flat-versus-multi-agent comparison, grader validation, and
   evaluation-driven optimization, and a bounded release decision.
+- [Stateful Memory Evaluation](https://github.com/julie-elkins/agent-systems-design-guide/blob/main/STATEFUL_MEMORY_EVALUATION.md)
+  -- evaluate background memory writes by comparing a baseline and treatment across
+  future task outcome, memory read/write correctness, privacy, provenance, deletion,
+  rollback, and negative controls.
 
 ### MCP design
 
@@ -95,6 +99,9 @@ where the synthetic controls and runnable labs live:
 - [Production AI Agent Readiness Checklist](https://github.com/julie-elkins/agent-assurance-harness/blob/main/docs/PRODUCTION_AI_AGENT_READINESS_CHECKLIST.md)
   -- cross-check evidence across ownership, delivery, authorization, observability,
   evaluation, guardrails, approval, change management, and recovery.
+- [Update Radar](https://github.com/julie-elkins/agent-assurance-harness/blob/main/docs/UPDATE_RADAR.md)
+  -- maintain public course and design-guide references through metadata-only source
+  refresh, explicitly queued social leads, and human review.
 
 ### Runnable evidence
 
@@ -115,12 +122,14 @@ AI Design Guides
     ├── design patterns
     │     ├── Agent Systems Design Guide
     │     │     ├── Agent Evaluation and Release
+    │     │     ├── Stateful Memory Evaluation
     │     │     └── Research Design Guide
     │     └── MCP Server Design Guide
     ├── operational guides and runnable evidence
     │     ├── Agent Assurance Harness
     │     │     ├── AI Incident Response
-    │     │     └── AI Evaluation Incident Response
+    │     │     ├── AI Evaluation Incident Response
+    │     │     └── Update Radar
     │     └── Agent Evaluation Checklist
     └── recommended learning sequence
           └── Agent Evaluation Learning Path
