@@ -101,7 +101,9 @@ where the synthetic controls and runnable labs live:
   evaluation, guardrails, approval, change management, and recovery.
 - [Update Radar](https://github.com/julie-elkins/agent-assurance-harness/blob/main/docs/UPDATE_RADAR.md)
   -- maintain public course and design-guide references through metadata-only source
-  refresh, explicitly queued social leads, and human review.
+  refresh, explicitly queued social leads, and human review. Provider-specific
+  references such as Codex, Promptfoo, LangSmith, and OpenTelemetry remain
+  optional mappings rather than required platform dependencies.
 
 ### Runnable evidence
 
