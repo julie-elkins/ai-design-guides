@@ -26,6 +26,15 @@ It explains the reusable decisions behind evidence contracts, refusal, metadata-
 boundaries, independent evaluation, human approval, semantic task outcomes, and
 multi-turn agent evaluation.
 
+### Teaching and enablement
+
+Use [AI Teaching Strategies](https://github.com/julie-elkins/ai-teaching-strategies)
+for the reusable teaching layer: audience calibration, demonstration-first
+instruction, failure-driven labs, assessment and feedback, instructor
+calibration, and learner adoption evidence. It links back to the canonical
+course, design-guide, and assurance repositories instead of copying their
+content.
+
 ### MCP builder
 
 Read [Designing MCP Servers for Agent Callers](https://github.com/julie-elkins/mcp-server-design-guide).
@@ -135,6 +144,8 @@ AI Design Guides
     │     └── Agent Evaluation Checklist
     └── recommended learning sequence
           └── Agent Evaluation Learning Path
+    └── teaching and enablement
+          └── AI Teaching Strategies
 ```
 
 The design guides explain the decisions. The harness demonstrates bounded synthetic
