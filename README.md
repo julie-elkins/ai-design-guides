@@ -31,9 +31,10 @@ multi-turn agent evaluation.
 Use [AI Teaching Strategies](https://github.com/julie-elkins/ai-teaching-strategies)
 for the reusable teaching layer: audience calibration, demonstration-first
 instruction, failure-driven labs, assessment and feedback, instructor
-calibration, and learner adoption evidence. It links back to the canonical
-course, design-guide, and assurance repositories instead of copying their
-content.
+calibration, learner adoption evidence, and the `🧭 Take this forward` closing
+handoff that connects a lesson to its next action and evidence check. It links
+back to the canonical course, design-guide, and assurance repositories instead
+of copying their content.
 
 ### MCP builder
 
