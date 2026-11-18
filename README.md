@@ -26,6 +26,10 @@ It explains the reusable decisions behind evidence contracts, refusal, metadata-
 boundaries, independent evaluation, human approval, semantic task outcomes, and
 multi-turn agent evaluation.
 
+Use the [evaluation interview crosswalk](https://github.com/julie-elkins/agent-systems-design-guide/blob/main/EVALUATION_INTERVIEW_CROSSWALK.md)
+to connect common evaluation-engineer questions to design decisions, evidence, and
+limitations.
+
 ### Teaching and enablement
 
 Use [AI Teaching Strategies](https://github.com/julie-elkins/ai-teaching-strategies)
