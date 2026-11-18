@@ -121,6 +121,10 @@ where the synthetic controls and runnable labs live:
   -- offline, provider-neutral synthetic controls for acting, abstaining, and
   reporting honestly, including a constrained quality/cost/latency candidate
   comparison that leaves final selection to human review.
+- [ESAC-Bench Recovery Track](https://github.com/julie-elkins/esac-bench/blob/main/docs/benchmark-spec.md#recovery-track)
+  -- seven synthetic cases for measuring final-state restoration, side-effect
+  integrity, recovery evidence, and bounded recovery separately from task
+  outcome.
 - [LLM Eval Validity](https://github.com/julie-elkins/llm-eval-validity)
   -- test whether an evaluation supports the decision being made from it.
 - [Agent Evaluation Checklist](https://github.com/julie-elkins/agent-assurance-harness/blob/main/AGENT_EVALUATION_CHECKLIST.md)
